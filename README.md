@@ -6,7 +6,7 @@ Author: Muhammad Farhan Mardadi
 1. Run XAMPP
 2. Dump flip.sql to MySQL Database
 3. Copy project to xampp/htdocs
-4. Run localhost/flip on the browser
+4. Run localhost/flip_mini_project on the browser
 
 # How to add disbursement
 1. Fill the disbursement form
