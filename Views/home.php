@@ -10,7 +10,7 @@
 	<a href="./" style="margin: 1% 45% 0% 48%"><img src="https://flip.id/aset_gambar/logo.png" alt="Flip" width="50px" height="50px"></a>
 
 	<h3 style="text-align: center;color: orange; margin-top: 1%">Disbursement Form</h3>
-	<form method="post" action="/flip/?action=insert" style="margin: 1% 30% 0% 30%">
+	<form method="post" action="/flip_mini_project/?action=insert" style="margin: 1% 30% 0% 30%">
     <div class="form-group">
       <label for="bank_code">Bank Code:</label>
       <input type="text" class="form-control" id="bank_code" placeholder="Enter Bank Code" name="bank_code" required>
@@ -51,7 +51,7 @@
 
         while($row = mysqli_fetch_assoc($result)) {
           echo "<tr>";
-          echo "<td><a href='/flip/?action=view&id=".$row['id']."'>".$row['id']."</a></td>";
+          echo "<td><a href='/flip_mini_project/?action=view&id=".$row['id']."'>".$row['id']."</a></td>";
           echo "<td>".$row['status']."</td>";
           echo "<td>".$row['timestamp']."</td>";
           echo "<td>".$row['amount']."</td>";

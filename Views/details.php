@@ -52,6 +52,6 @@
 	</table>
 
 	<br>
-	<a href="/flip/">Back</a>
+	<a href="/flip_mini_project/">Back</a>
 </body>
 </html>
